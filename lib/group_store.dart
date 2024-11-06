@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:mobx/mobx.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
 part 'group_store.g.dart';
 
 class GroupStore = _GroupStore with _$GroupStore;
